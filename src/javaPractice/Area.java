@@ -12,5 +12,11 @@ public class Area {
 	public static double areaOfTriangle(double height, double base) {
 		return (base * height) / 2;
 	}
+	
+	public static void volumeOfSphere(double radius) {
+		double volume = 1.33 * radius * radius * radius;
+		System.out.println(volume);
+		
+	}
 
 }
